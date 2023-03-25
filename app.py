@@ -296,8 +296,8 @@ guiLabel = Label(
     anchor = SE,  
     font = ("Cambria Math", 20),  
     textvariable = data,  
-    background = "#A9A9A9",  
-    fg = "#000000"  
+    background = "#000",  
+    fg = "#fff"  
 )  
 # using the pack() method  
 guiLabel.pack(expand = True, fill = "both")  
